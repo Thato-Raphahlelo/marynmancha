@@ -1,0 +1,31 @@
+.downloadText{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    background-color: #e7d3a4; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 50px;
+  transition-duration: 0.4s;
+}
+
+.btn:hover{
+    color: #fffaf0;
+    background-color: #b8860b;
+}
+
+.btnContainer{
+    margin-bottom: 15%;
+}
+
+.a:link{
+    
+}
