@@ -5,7 +5,7 @@
 
 .HeadConatainer{
     position: absolute;
-    background-color: #fffaf0;
+    background-color: rgba(0, 0, 0, 0.5);;
     height: 95%;
     width: 100%;
     // bottom: 0%;
@@ -23,6 +23,29 @@
 .heading{
   font-family: 'Pinyon Script', cursive;
   font-size: 8vw;
+  z-index: 1;
+  color: #fffaf0;
+}
+
+.myVideo {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  bottom: 0;
+  left: 0%;
+  //min-width: 100%;
+  //min-height: 100%;
+z-index: -5;
+}
+.back{
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  z-index: -4;
 }
 
 // [class*="col-"] {
