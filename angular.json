@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "marynmancha"
+  "defaultProject": "marynmancha",
+  "cli": {
+    "analytics": "538475dd-d7ab-4d06-bfff-b4b395c296d9"
+  }
 }
